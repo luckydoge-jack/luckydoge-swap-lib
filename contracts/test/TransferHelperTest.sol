@@ -31,8 +31,8 @@ contract TransferHelperTest {
         TransferHelper.safeTransferFrom(token, from, to, value);
     }
 
-    function safeTransferBNB(address to, uint256 value) external {
-        TransferHelper.safeTransferBNB(to, value);
+    function safeTransferETH(address to, uint256 value) external {
+        TransferHelper.safeTransferETH(to, value);
     }
 }
 
